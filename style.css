@@ -1,0 +1,87 @@
+body{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-txt {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#searchinput{
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.estante {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.livro{
+    width: 160px;
+    text-align: center;
+}
+
+.livro img{
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.livro h2{
+    margin-bottom: 10px;
+}
+
+.livro p{
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2563eb;
+}
